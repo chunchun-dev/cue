@@ -1,15 +1,15 @@
 const projectTypes = {
     "React": {
-        repoUrl: "",
+        repoUrl: "https://github.com/react-boilerplate/react-boilerplate",
     },
     "ReactTS": {
-        repoUrl: "",
+        repoUrl: "https://github.com/react-boilerplate/react-boilerplate-typescript",
     },
     "Next": {
-        repoUrl: "",
+        repoUrl: "https://github.com/ooade/NextSimpleStarter",
     },
     "NextTS": {
-        repoUrl: ""
+        repoUrl: "https://github.com/ixartz/Next-js-Boilerplate"
     }
 }
 
