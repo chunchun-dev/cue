@@ -1,12 +1,11 @@
 #! /usr/bin/env node
 
-const inquirer = require('inquirer');
-const shell = require('shelljs');
-const { createProject } = require('./utils/createProject.js');
+import inquirer from "inquirer"
+import { createProject } from './utils/createProject.js'
 
 const path = process.cwd();
 
-const { prompts, promptsTs } = require('./utils/prompts.js');
+import {prompts, promptsTs} from './utils/prompts.js'
 
 inquirer.prompt(prompts).then((answers) => {
     inquirer.prompt(promptsTs).then((answersTs) => {

@@ -1,4 +1,4 @@
-const projectTypes = {
+export const projectTypes = {
     "React": {
         repoUrl: "https://github.com/react-boilerplate/react-boilerplate",
     },
@@ -12,5 +12,3 @@ const projectTypes = {
         repoUrl: "https://github.com/ixartz/Next-js-Boilerplate"
     }
 }
-
-module.exports.projectTypes = projectTypes

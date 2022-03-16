@@ -1,5 +1,5 @@
 // This question would be shown at the starting
-const prompts = [
+export const prompts = [
     {
         type: "text",
         name: "projectName",
@@ -14,7 +14,7 @@ const prompts = [
 ];
 
 // This question would be shown only when the user choose either React or NextJS
-const promptsTs = [
+export const promptsTs = [
     {
         type: 'list',
         name: 'typescript',
@@ -22,6 +22,3 @@ const promptsTs = [
         choices: ['Yes', 'No'],
     },
 ];
-
-module.exports.prompts = prompts;
-module.exports.promptsTs = promptsTs;
