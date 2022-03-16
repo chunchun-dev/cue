@@ -1,5 +1,5 @@
 {
-  "name": "cue",
+  "name": "cue-templates",
   "version": "1.0.0",
   "description": "A simple template generator for frontend codebases",
   "main": "./bin/index.js",
