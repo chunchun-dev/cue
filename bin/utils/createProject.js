@@ -7,7 +7,7 @@ import chalkAnimation from 'chalk-animation'
 export const createProject = (projectType, projectName, currPath, typescript) => {
     
     // Project creation
-    shell.exec(`git clone ${(projectTypes)[projectType + (typescript ? "TS": "JS")].repoUrl} ${projectName}`)
+    shell.exec(`git clone ${(projectTypes)[projectType + (typescript ? "TS": "")].repoUrl} ${projectName}`)
     shell.exec(`cd ${currPath}/${projectName}`)
 
 
@@ -18,7 +18,6 @@ export const createProject = (projectType, projectName, currPath, typescript) =>
     console.log(chalk.greenBright("Happy hacking"))
     console.log("\n")
 
-    
     /*
     figlet('Project Generated\nHappy hacking', function(err, data) {
         if (err) {
